@@ -1,0 +1,16 @@
+BB0 26
+pred: 
+succ: 1 
+BB1 4
+pred: 4 0 
+succ: 2 3 
+BB2 21
+pred: 1 
+succ: 4 
+BB4 4
+pred: 2 
+succ: 1 
+BB3 4
+pred: 1 
+succ: 
+funcall 
