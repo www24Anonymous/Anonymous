@@ -32,3 +32,10 @@ Execute the following scripts to train on node classification task:
 ```bash
 python main.py
 ```
+## Result
+
+
+| methods | generate_Fib          |
+|:-------:|:---------------------:|
+| ours    | A:0.89 P:0.98 F1:0.80 |
+
