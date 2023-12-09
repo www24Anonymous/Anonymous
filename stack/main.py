@@ -250,7 +250,6 @@ def train_model(train_data_node, train_data_edge, BB_info, features, labels):
         #Validate every 5 epochs and choose the best model
         if epoch % 5 == 0:
             val_loss, val_acc, val_P, val_R, val_F1 = evaluate(model, G, feature, labels, idx_val, BB_G, bb_features)
-            print("train_loss:%.4f, train_Acc:%.4f, Val_loss:%.4f, Val_Acc:%.4f, Val_Pre:%.4f, Val_R:%.4f, Val_F1:%.4f"%(loss, acc, val_loss, val_acc, val_P, val_R, val_F1))
             if epoch < 1000:
                 continue
             elif val_acc >= best_Acc:
