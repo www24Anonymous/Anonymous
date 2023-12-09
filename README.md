@@ -32,7 +32,7 @@ Execute the following scripts to train on node classification task:
 ```bash
 python main.py
 ```
-## Result
+## Result on WebAssembly programs(C++)
 
 
 | methods | generate_Fib          |
