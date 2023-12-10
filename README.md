@@ -4,9 +4,9 @@ VP-HPKG explores the random propagation of instruction-stream errors by represen
 ## Result on WebAssembly programs(C++)
 
 
-| methods | generate_Fib          |
-|:-------:|:---------------------:|
-| ours    | A:0.89 P:0.98 F1:0.80 |
+| methods | generate_Fib          | float-mm |
+|:-------:|:---------------------:|:--------:|
+| ours    | A:0.89 P:0.98 F1:0.80 |A:0.85 P:0.90 F1:0.82|
 
 
 ## Overview
