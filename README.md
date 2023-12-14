@@ -8,7 +8,7 @@ VP-HPKG explores the random propagation of instruction-stream errors by represen
 |:-------:|:---------------------:|:--------:|
 | ours    | A:0.89 P:0.98 F1:0.80 |A:0.85 P:0.90 F1:0.82|
 | PrograML| A:0.85 P:0.93 F1:0.80 |A:0.82 P:0.85 F1:0.78|
-| MVD     | A:0.67 P:0.50 F1:0.40 |A:0.63 P:0.56 F1:0.0.67|
+| MVD     | A:0.67 P:0.50 F1:0.40 |A:0.63 P:0.56 F1:0.67|
 
 
 ## Overview
